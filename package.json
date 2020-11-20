@@ -1,0 +1,16 @@
+{
+  "name": "today-i-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samuelffn/today-i-learning.git",
+  "author": "samuelffn <samuelffn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
