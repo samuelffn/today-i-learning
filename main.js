@@ -28,6 +28,12 @@ class ItensList extends List {
     }
 }
 
+class Matematica {
+    static soma(a, b){
+        return a + b;
+    }
+}
+
 const meusItens = new ItensList();
 
 document.getElementById('novoitem').onclick = function() {
@@ -36,3 +42,5 @@ document.getElementById('novoitem').onclick = function() {
 }
 
 meusItens.exibeUsuario();
+
+console.log(Matematica.soma(1, 2));

@@ -72,6 +72,21 @@ var ItensList = /*#__PURE__*/function (_List) {
   return ItensList;
 }(List);
 
+var Matematica = /*#__PURE__*/function () {
+  function Matematica() {
+    _classCallCheck(this, Matematica);
+  }
+
+  _createClass(Matematica, null, [{
+    key: "soma",
+    value: function soma(a, b) {
+      return a + b;
+    }
+  }]);
+
+  return Matematica;
+}();
+
 var meusItens = new ItensList();
 
 document.getElementById('novoitem').onclick = function () {
@@ -80,3 +95,4 @@ document.getElementById('novoitem').onclick = function () {
 };
 
 meusItens.exibeUsuario();
+console.log(Matematica.soma(1, 2));
