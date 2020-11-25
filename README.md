@@ -8,7 +8,8 @@ Ajudará na execução do EC6 em todos os navegadores
 Comandos para instalação:  
 yarn add @babel/cli  
 yarn add @babel/preset-env  
-yarn add @babel/core  
+yarn add @babel/core
+yarn add @babel/plugin-proposal-object-rest-spread
 
 ## executando
 - Para ver saída de console.log: **node nome_arquivo.js**  
