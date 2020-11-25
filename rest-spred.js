@@ -1,6 +1,3 @@
-// Instalação dos pacotes
-// yarn add @babel/plugin-proposal-object-rest-spread
-
 // REST
 const usuario = {
     nome: 'Joana',
