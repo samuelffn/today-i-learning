@@ -10,7 +10,7 @@ yarn add @babel/cli
 yarn add @babel/preset-env  
 yarn add @babel/core
 yarn add @babel/plugin-proposal-object-rest-spread  
-yarn add @babel
+yarn add axios
 
 ## executando
 - Para ver saída de console.log: **node nome_arquivo.js**  
