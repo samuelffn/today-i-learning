@@ -10,6 +10,7 @@ yarn add @babel/cli
 yarn add @babel/preset-env  
 yarn add @babel/core
 yarn add @babel/plugin-proposal-object-rest-spread  
+yarn add @babel/plugin-transform-async-to-generator  
 yarn add axios
 
 ## executando
