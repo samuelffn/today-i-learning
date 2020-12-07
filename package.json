@@ -8,9 +8,15 @@
   "dependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1"
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "axios": "^0.21.0"
   },
   "scripts": {
     "dev": "babel ./src/main.js -o ./src/bundle.js -w"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
