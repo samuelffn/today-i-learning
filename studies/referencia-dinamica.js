@@ -37,7 +37,7 @@ function teste() {
             }
         } */
 
-        //usando o foreach
+        // Usando o foreach
         inputs.forEach(v => {
             value = { ...value }[v];
         });
