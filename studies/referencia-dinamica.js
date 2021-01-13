@@ -28,11 +28,19 @@ function teste() {
     let result = '';
     list.forEach(l => {
         let value = l[inputs[0]];
-        for (let v = 0; v < inputs.length; v++) {
+        inputs.shift();
+
+        // Usando o for tradicional
+        /* for (let v = 0; v < inputs.length; v++) {
             if (v > 0) {
                 value = { ...value }[inputs[v]];
             }
-        }
+        } */
+
+        //usando o foreach
+        inputs.forEach(v => {
+            value = { ...value }[v];
+        });
         
         result = value;
     });
