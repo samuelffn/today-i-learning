@@ -1,3 +1,26 @@
+console.log("Exemplo de referência dinâmica");
+
+const obj = {
+  val: {
+    MON: {
+      value: "segunda"
+    },
+    TUE: {
+      value: "terça"
+    }
+  }
+};
+
+console.log(obj.val.MON.value); // retorna: segunda
+console.log(obj.val.TUE.value); // retorna: terça
+console.log('--------------------');
+
+let dayOfWeek = 'MON';
+
+console.log(obj.val[dayOfWeek].value); // retorna: segunda
+
+console.log('*********************************************');
+
 console.log("Testando referência dinâmica");
 
 const list = [
