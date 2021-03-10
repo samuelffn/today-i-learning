@@ -1,1 +1,70 @@
 
+{
+  "LOGIN": {
+    "TITLE": "Bem-vindo, {{ ascName }}!",
+    "PLACEHOLDER": "Digite sua senha",
+    "SUBMIT": "entrar",
+    "ERROR": {
+      "REQUIRED_FIELD": "Este campo é obrigatório",
+      "INVALID_PASSWORD": "Senha incorreta ou bloqueada."
+    },
+    "ATTENTION": "Fique atento:",
+    "RIGHT_PASSWORD": "- Certifique-se que a senha inserida está correta;",
+    "FIVE_ATTEMPTS": "- Após a 5ª tentativa a senha será bloqueada;",
+    "ANY_PROBLEM": "- Em caso de problemas no login entre em contato com o seu supervisor."
+  },
+  "HOME": {
+    "AVERAGE_TIME": "Tempo médio de espera:",
+    "MINUTE_SUFFIX": "min",
+    "AT": "em",
+    "UNTIL": "até",
+    "VOICE": "Google português do Brasil",
+    "LANG": "pt",
+    "CALLING": "Chamando"
+  },
+  "LAB_TOKEN_CAROUSEL": {
+    "TITLE": "Laboratório",
+    "STATUS": {
+      "UNDER_REVIEW": "Em análise",
+      "IN_REPAIR": "Em reparo",
+      "FINISHING": "Finaliza"
+    },
+    "DISCLAIMER": "*Tempo estimado na etapa, podendo haver alterações.",
+    "CALCULATING": "Calculando...",
+    "LATE": "Atrasado"
+  },
+  "NEXT_TOKENS_QUEUES": {
+    "TITLE": {
+      "HEAD": "Próximas",
+      "TAIL": "senhas a serem chamadas"
+    }
+  },
+  "SCL1": {
+    "NO_TOKEN_REGISTERED": "Nenhuma senha registrada",
+    "NEXT_TOKENS_QUEUES": {
+      "TITLE": {
+        "HEAD": "Próximas",
+        "TAIL": "senhas"
+      }
+    },
+    "WAIT_TOKEN_CALL": "Aguarde sua senha ser chamada",
+    "VIDEO_DIALOG": {
+      "TITLE": "Importar vídeos",
+      "DESCRIPTION": "Antes de iniciar o Painel é possível fazer o upload de arquivos de vídeo.",
+      "DRAG_AND_DROP_DESCRIPTION": "Arraste o arquivo de vídeo para esta área ou clique para selecionar em seu computador.",
+      "BUTTON_SELECT": "Selecionar",
+      "BUTTON_CLOSE": "Iniciar painel",
+      "REMARKS": "Observações:",
+      "REMARK_VIDEO_TYPE": "É aceito apenas o formato de arquivo",
+      "REMARK_SINGLE_FILE_SIZE": "São aceitos arquivos de vídeo de até {{ maxVideoSize }} cada.",
+      "REMARK_TOTAL_FILE": "A quantidade total não deve exceder o limite de {{ totalVideos }} arquivos.",
+      "ERROR_MESSAGE_GENERAL": "Ops! Não foi possível concluir a importação.",
+      "ERROR_MESSAGE_VIDEO_TYPE": "O arquivo <strong>{{ fileName }}<strong> está no formato não suportado.",
+      "ERROR_MESSAGE_SINGLE_FILE_SIZE": "O arquivo <strong>{{ fileName }}</strong> excede o limite de <strong>{{ fileSize }}</strong>.",
+      "ERROR_MESSAGE_TOTAL_FILE_SIZE": "O total de arquivos selecionados excedem o limite de <strong>{{ totalFileSize }}</strong>.",
+      "ERROR_MESSAGE_TOTAL_FILES": "O total de arquivos selecionados excedem o limite de <strong>{{ totalFiles }}</strong>.",
+      "ERROR_MESSAGE_VIDEO_PLAYER": "Seu navegador não suporta vídeos HTML5.",
+      "ERROR_MESSAGE_VIDEO_CAN_NOT_PLAY": "O arquivo <strong>{{ fileName }}<strong> nāo pode ser reproduzido."
+    }
+  }
+}
