@@ -61,3 +61,21 @@ console.log('----------------------------');
 // https://www.educative.io/edpresso/how-to-merge-arrays-in-javascript?utm_term=&utm_campaign=%5BTest%5D+Dynamic+Verticals&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=14045073269&hsa_grp=128822123401&hsa_ad=535845844738&hsa_src=g&hsa_tgt=dsa-310094130363&hsa_kw=&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw5oiMBhDtARIsAJi0qk147K9Yfv0g-AaGa2Pt42ytfANL5uK5pXV6Y-ZZg7K9h8_2KtIgMPMaAl2nEALw_wcB
 
 
+
+/* Dividindo o array em partes */
+let a = ['a','b','c','d','e','f','g'], chunk;
+
+while (a.length > 0) {
+  chunk = a.splice(0,3);
+
+  console.log(chunk);
+}
+
+/* Saida: */
+// [ 'a', 'b', 'c' ]
+// [ 'd', 'e', 'f' ]
+// [ 'g' ]
+
+console.log('----------------------------');
+
+
