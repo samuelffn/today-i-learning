@@ -1,0 +1,16 @@
+/* Separando os elementos do array utilizando variáveis */
+
+// Cada variável declarada no segunda linha é equivalente à ordem de elementos do array
+const array1 = ['2022-01-31', '31', '01', '2022', 'outros valores'];
+const [ full, dia, mes, ano ] = array;
+console.log('Não vou precisar: ', full); //é a posição 0 do array
+console.log('dia: ', dia);  //é a posição 1 do array -> 31
+console.log('mês: ', mes);  //é a posição 2 do array -> 01
+console.log('ano: ', ano);  //é a posição 3 do array -> 2022
+
+// Criamos a variável `full` só pq não vamos precisar do valor do primeiro elemento.
+const array2 = ['2022-01-31', '31', '01', '2022', 'outros valores'];
+const [dia2, mes2, ano2] = array2;
+console.log('dia: ', dia2); //2022-01-31
+console.log('mês: ', mes2); //31
+console.log('ano: ', ano2); //01
