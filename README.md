@@ -24,4 +24,4 @@ yarn add axios
 Contém os arquivos principais do projeto yarn  
 
 ### studies
-Contém as pastas dos assuntos estudados com seus repsctivos aquivos .js  
+Contém as pastas dos assuntos estudados com seus respectivos aquivos .js  
