@@ -35,3 +35,35 @@ const find = arr.find(function(item) {
     return item === 4; // Verifique se existe o 4 no array
 }); 
 console.log(find); // Saida: 4. Caso não existisse, retornaria "undefined"
+
+
+/* Mais formas de manipular arrays */
+
+// Reverse
+const array1 = ['a', 'b', 'c', 'b'];
+console.log(array1.reverse()); //['b', 'c', 'b', 'a']
+
+// Find
+const array2 = ['a', 'a', 'b', 'b'];
+console.log(array2.find((val) => val === 'a')); //a
+
+// Filter
+const array3 = ['a', 'a', 'b', 'a'];
+console.log(array3.filter((val) => val === 'a')); //['a', 'a', 'a']
+
+// FindIndex
+const array4 = ['a', 'a', 'a', 'b'];
+console.log(array4.findIndex((val) => val === 'b')); //3
+
+// Some
+const array5 = ['a', 'b', 'b', 'a'];
+console.log(array5.some((val) => val === 'b')); //true
+
+// Fill
+const array6 = ['a', 'a', 'a', 'a'];
+// console.log(array6.fill('b', 1)); //["a", "b", "b", "b"]
+// console.log(array6.fill('b', 2)); //["a", "a", "b", "b"]
+// console.log(array6.fill('b', 3)); //["a", "a", "a", "b"]
+console.log(array6.fill('b', 1, 2)); //["a", "b", "a", "a"]
+
+
