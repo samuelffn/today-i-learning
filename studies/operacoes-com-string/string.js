@@ -9,8 +9,8 @@ console.log('cpfLimpo: ', cpfLimpo); //12345678900
 
 /* Setando uma máscara numa variável */
 
-const cpf = '123.456.789-00';
-const addMaskCpf = cpfLimpo.replace(
+const cpf2 = '123.456.789-00';
+const addMaskCpf = cpf2.replace(
   /(\d{3})(\d{3})(\d{3})(\d{2})/,
   '$1.$2.$3-$4'
 );
