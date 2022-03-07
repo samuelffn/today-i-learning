@@ -1,3 +1,5 @@
+/* Const e let */
+
 function teste(x) {
     let y = 2;
     console.log(y);
@@ -20,3 +22,27 @@ const usuario = { nome: 'Samuel' };
 usuario.nome = 'Neto';
 
 console.log(usuario);
+
+
+/* Var e Let */
+
+void (function () {
+  console.log('--- ', mensagem);
+})();
+var mensagem;
+
+var exibeMensagem = function() {
+  if(true) { 
+      var escopoFuncao = 'Escopo da Funcao'; 
+      let escopoBloco = 'Escopo do Bloco';
+
+     console.log(escopoBloco); // Escopo do Bloco 
+ } 
+ console.log(escopoFuncao); // Escopo da Funcao 
+ console.log(escopoBloco); // Aqui vai quebrar
+}
+
+exibeMensagem();
+
+
+
