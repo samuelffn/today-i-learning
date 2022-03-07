@@ -1,3 +1,4 @@
+// Link: https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript?gclid=CjwKCAiA1JGRBhBSEiwAxXblwdBmrI2i7TIirFTbnjZWMDGP6RdSuoMnLOssPYGTo-kVsQlQrgwxnBoCIsAQAvD_BwE
 /* Const e let */
 
 function teste(x) {
