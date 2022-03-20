@@ -1,3 +1,5 @@
+/* Atribuições desestruturadas */
+
 const usuario = {
     nome: 'Maria',
     idade: '25',
@@ -27,3 +29,12 @@ function mostraNome2({ nome, idade }) {
     console.log(idade)
 }
 mostraNome2(usuario);
+
+
+/* Adicionando alias em atribuições desestruturadas */
+
+const valores = {oficio: 'programador', aniversario: '18/03/1990'};
+const {oficio: profissao, aniversario: dataNascimento} = valores;
+ 
+console.log(profissao); // programador
+console.log(dataNascimento); // 18/03/1990
